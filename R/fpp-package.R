@@ -18,10 +18,6 @@
 #' @import expsmooth fma forecast ggplot2
 NULL
 
-
-
-
-
 #' International Arrivals to Australia
 #'
 #' Quarterly international arrivals (in thousands) to Australia from Japan, New
@@ -39,15 +35,11 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Air Transport Passengers Australia
 #'
 #' Total annual air passengers (in millions) including domestic and
 #' international aircraft passengers of air carriers registered in Australia.
-#' 1970-2015.
+#' 1970-2016.
 #'
 #'
 #' @name ausair
@@ -131,7 +123,7 @@ NULL
 #' Monthly expenditure on eating out in Australia
 #'
 #' The total monthly expenditure on cafes, restaurants and takeaway food
-#' services in Australia ($billion). April 1982 - November 2016.
+#' services in Australia ($billion). April 1982 - September 2017.
 #'
 #'
 #' @name auscafe
@@ -223,13 +215,19 @@ NULL
 
 
 
-#' Half-hourly electricity demand for Victoria, Australia, in 2014
+#' Half-hourly and daily electricity demand for Victoria, Australia, in 2014
 #'
-#' A time series matrix with three columns.
+#' \code{elecdemand} is a half-hourly time series matrix with three columns:
 #'   \tabular{ll}{
 #'     Demand:      \tab Total electricity demand in GW for Victoria, Australia, every half-hour during 2014.\cr
 #'     WorkDay:     \tab taking value 1 on work days, and 0 otherwise.\cr
 #'     Temperature: \tab half-hourly temperatures for Melbourne (BOM site 086071).
+#' }
+#' \code{elecdaily} is a daily time series matrix with three columns:
+#'   \tabular{ll}{
+#'     Demand:      \tab Total electricity demand in GW for Victoria, Australia, every day during 2014.\cr
+#'     WorkDay:     \tab taking value 1 on work days, and 0 otherwise.\cr
+#'     Temperature: \tab maximum daily temperatures for Melbourne (BOM site 086071).
 #' }
 #'
 #' This data is for operational demand, which is the demand met by local
@@ -251,9 +249,14 @@ NULL
 #' @examples
 #'
 #' summary(elecdemand)
+#' summary(elecdaily)
 #'
 NULL
 
+#' @name elecdaily
+#' @rdname elecdemand
+#'
+NULL
 
 
 
@@ -369,13 +372,14 @@ NULL
 #' Daily closing stock prices of Google Inc
 #'
 #' Closing stock prices of GOOG from the NASDAQ exchange, for 1000 consecutive
-#' trading days between 25 February 2013 and 13 February 2017.
+#' trading days between 25 February 2013 and 13 February 2017. Adjusted for splits.
+#' \code{goog200} contains the first 200 observations from \code{goog}.
 #'
 #'
 #' @name goog
 #' @docType data
 #' @format Daily time series of class \code{ts}.
-#' @source \url{https://www.quandl.com/data/GOOG/NASDAQ_GOOGL}
+#' @source \url{https://goo.gl/5KBjL5}
 #' @keywords datasets
 #' @examples
 #'
@@ -384,8 +388,9 @@ NULL
 NULL
 
 
-
-
+#' @name goog200
+#' @rdname goog
+NULL
 
 #' Rice production (Guinea)
 #'
@@ -407,7 +412,7 @@ NULL
 
 
 
-#' Monthly cortecosteroid drug sales in Australia from July 1991 to June 2008.
+#' Monthly corticosteroid drug sales in Australia from July 1991 to June 2008.
 #'
 #' Total monthly scripts for pharmaceutical products falling under ATC code
 #' H02, as recorded by the Australian Health Insurance Commission. Measured in
@@ -644,7 +649,7 @@ NULL
 
 
 
-#' Annual average sunspot area (1875-2016)
+#' Annual average sunspot area (1875-2015)
 #'
 #' Annual averages of the daily sunspot areas (in units of millionths of a
 #' hemisphere) for the full sun. Sunspots are magnetic regions that appear as
@@ -710,39 +715,23 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Quarterly visitor nights for various regions of Australia.
 #'
-#' Total quarterly visitor nights (in millions) from 1998-2015 for eight
-#' regions of Australia:
-#'   \tabular{ll}{
-#'     Sydney     \tab The Sydney metropolitan area.\cr
-#'     NSW        \tab New South Wales other than Sydney\cr
-#'     Melbourne  \tab The Melbourne metropolitan area.\cr
-#'     VIC        \tab Victoria other than Melbourne.\cr
-#'     BrisbaneGC \tab The Brisbane and Gold Coast area.\cr
-#'     QLD        \tab Queensland other than Brisbane and the Gold Coast.\cr
-#'     Capitals   \tab The other five capital cities: Adelaide, Hobart, Perth, Darwin and Canberra.\cr
-#'     Other      \tab All other areas of Australia.
-#' }
+#' Total quarterly visitor nights (in millions) from 1998-2016 for twenty
+#' regions of Australia within six states. The states are:
+#' New South Wales, Queensland, South Australia, Victoria, Western Australia, and
+#' Other.
 #'
-#'
-#' @name vn
+#' @name visnights
 #' @docType data
 #' @format Time series object of class \code{mts}.
 #' @source Tourism Research Australia.
 #' @keywords datasets
 #' @examples
 #'
-#' autoplot(vn, facets=TRUE)
+#' autoplot(visnights)
 #'
 NULL
-
-
-
 
 
 #' Annual female murder rate (per 100,000 standard population) in the USA.
@@ -783,3 +772,22 @@ NULL
 
 
 
+#' prison
+#'
+#' @name prison
+#' @docType data
+#' @format Quarterly time series of prisoner numbers in Australia from 2005 to 2016, split
+#' by sex, state and legal status. \code{prisonLF} is a long-form version of the data of
+#' class \code{data.frame}, while \code{prison} is in wide form and of class \code{mts}.
+#' @keywords datasets
+#' @examples
+#'
+#' autoplot(prison)
+#' head(prisonLF)
+#'
+NULL
+
+#' @name prisonLF
+#' @rdname prison
+#'
+NULL
