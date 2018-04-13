@@ -6,7 +6,7 @@
 \title{Air Transport Passengers Australia}
 \format{Annual time series of class \code{ts}.}
 \source{
-World Bank. \url{http://data.is/x5KiEO}
+World Bank. \url{https://data.is/x5KiEO}
 }
 \description{
 Total annual air passengers (in millions) including domestic and

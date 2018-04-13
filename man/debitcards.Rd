@@ -6,7 +6,7 @@
 \title{Retail debit card usage in Iceland.}
 \format{Monthly time series of class \code{ts}.}
 \source{
-Statistics Iceland. \url{http://data.is/HFzL69}
+Statistics Iceland. \url{https://data.is/HFzL69}
 }
 \description{
 Monthly retail debit card usage in Iceland (million ISK). January 2000 -

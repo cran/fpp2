@@ -15,7 +15,7 @@ book.
 \references{
 Hyndman, R.J., and Athanasopoulos, G. (2017).
 \emph{Forecasting: principles and practice}, OTexts: Melbourne, Australia.
-\url{http://OTexts.org/fpp2/}
+\url{https://OTexts.org/fpp2/}
 }
 \seealso{
 \code{\link[forecast]{forecast}} package

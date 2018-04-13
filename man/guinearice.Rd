@@ -6,7 +6,7 @@
 \title{Rice production (Guinea)}
 \format{Annual time series of class \code{ts}.}
 \source{
-World Bank. \url{http://data.is/whKD8H}
+World Bank. \url{https://data.is/whKD8H}
 }
 \description{
 Total annual rice production (million metric tons) for Guinea. 1970-2011.

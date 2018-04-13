@@ -45,7 +45,7 @@ NULL
 #' @name ausair
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source World Bank. \url{http://data.is/x5KiEO}
+#' @source World Bank. \url{https://data.is/x5KiEO}
 #' @keywords datasets
 #' @examples
 #'
@@ -171,7 +171,7 @@ NULL
 #' @name debitcards
 #' @docType data
 #' @format Monthly time series of class \code{ts}.
-#' @source Statistics Iceland. \url{http://data.is/HFzL69}
+#' @source Statistics Iceland. \url{https://data.is/HFzL69}
 #' @keywords datasets
 #' @examples
 #'
@@ -271,7 +271,7 @@ NULL
 #' @name elecequip
 #' @docType data
 #' @format Time series object of class \code{ts}.
-#' @source Eurostat. \url{http://data.is/y6dO8i}
+#' @source Eurostat. \url{https://data.is/y6dO8i}
 #' @keywords datasets
 #' @examples
 #'
@@ -314,7 +314,7 @@ NULL
 #' @name euretail
 #' @docType data
 #' @format Quarterly time series of class \code{ts}.
-#' @source Eurostat. \url{http://data.is/IdKyZr}
+#' @source Eurostat. \url{https://data.is/IdKyZr}
 #' @keywords datasets
 #' @examples
 #'
@@ -339,7 +339,7 @@ NULL
 #' @author Rob J Hyndman
 #' @references Hyndman, R.J., and Athanasopoulos, G. (2017).
 #' \emph{Forecasting: principles and practice}, OTexts: Melbourne, Australia.
-#' \url{http://OTexts.org/fpp2/}
+#' \url{https://OTexts.org/fpp2/}
 #' @seealso \code{\link[forecast]{forecast}} package
 #' @keywords package
 NULL
@@ -351,7 +351,7 @@ NULL
 #' US finished motor gasoline product supplied.
 #'
 #' Weekly data beginning 2 February 1991, ending 20 January 2017. Units are
-#' "thousand barrels per day".
+#' "million barrels per day".
 #'
 #'
 #' @name gasoline
@@ -400,7 +400,7 @@ NULL
 #' @name guinearice
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source World Bank. \url{http://data.is/whKD8H}
+#' @source World Bank. \url{https://data.is/whKD8H}
 #' @keywords datasets
 #' @examples
 #'
@@ -438,7 +438,7 @@ NULL
 #' Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015.
 #'
 #' Hyndsight is Rob Hyndman's personal blog at
-#' \url{http://robjhyndman.com/hyndsight}. This series contains the daily
+#' \url{https://robjhyndman.com/hyndsight}. This series contains the daily
 #' pageviews for one year, beginning 30 April 2014. The frequency is set to 7,
 #' to allow the weekly pattern to be modelled.
 #'
@@ -487,7 +487,7 @@ NULL
 #' @name livestock
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source United Nations. \url{http://data.is/GFxwQi}
+#' @source United Nations. \url{https://data.is/GFxwQi}
 #' @keywords datasets
 #' @examples
 #'
@@ -574,7 +574,7 @@ NULL
 #' @name oil
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source BP. \url{http://data.is/GEOHU3}
+#' @source BP. \url{https://data.is/GEOHU3}
 #' @keywords datasets
 #' @examples
 #'
@@ -686,8 +686,8 @@ NULL
 #' @aliases usconsumption uschange
 #' @docType data
 #' @format Time series object of class \code{ts}.
-#' @source Federal Reserve Bank of St Louis. \url{http://data.is/AnVtzB}.
-#' \url{http://data.is/wQPcjU}.
+#' @source Federal Reserve Bank of St Louis. \url{https://data.is/AnVtzB}.
+#' \url{https://data.is/wQPcjU}.
 #' @keywords datasets
 #' @examples
 #'
@@ -707,7 +707,7 @@ NULL
 #' @name usmelec
 #' @docType data
 #' @format Time series object of class \code{ts}.
-#' @source US Energy Information Administration. \url{http://data.is/zgRWCO}.
+#' @source US Energy Information Administration. \url{https://data.is/zgRWCO}.
 #' @keywords datasets
 #' @examples
 #'
@@ -743,7 +743,7 @@ NULL
 #' @name wmurders
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source Gapminder Foundation. \url{http://data.is/XKa24F}
+#' @source Gapminder Foundation. \url{https://data.is/XKa24F}
 #' @keywords datasets
 #' @examples
 #'

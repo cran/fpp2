@@ -6,7 +6,7 @@
 \title{Annual oil production in Saudi Arabia}
 \format{Annual time series of class \code{ts}.}
 \source{
-BP. \url{http://data.is/GEOHU3}
+BP. \url{https://data.is/GEOHU3}
 }
 \description{
 Annual oil production (millions of tonnes), Saudi Arabia, 1965-2013.

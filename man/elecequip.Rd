@@ -6,7 +6,7 @@
 \title{Electrical equipment manufactured in the Euro area.}
 \format{Time series object of class \code{ts}.}
 \source{
-Eurostat. \url{http://data.is/y6dO8i}
+Eurostat. \url{https://data.is/y6dO8i}
 }
 \description{
 Monthly manufacture of electrical equipment: computer, electronic and

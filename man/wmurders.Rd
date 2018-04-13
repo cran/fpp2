@@ -7,7 +7,7 @@
 1950-2004.}
 \format{Annual time series of class \code{ts}.}
 \source{
-Gapminder Foundation. \url{http://data.is/XKa24F}
+Gapminder Foundation. \url{https://data.is/XKa24F}
 }
 \description{
 Total Murdered women, per 100 000 standard population.

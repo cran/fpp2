@@ -6,7 +6,7 @@
 \title{Quarterly retail trade: Euro area.}
 \format{Quarterly time series of class \code{ts}.}
 \source{
-Eurostat. \url{http://data.is/IdKyZr}
+Eurostat. \url{https://data.is/IdKyZr}
 }
 \description{
 Quarterly retail trade index in the Euro area (17 countries), 1996-2011,
