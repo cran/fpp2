@@ -1,9 +1,9 @@
-#' Monthly anti-diabetic drug sales in Australia from 1991 to 2008.
+#' Monthly anti-diabetic drug subsidy in Australia from 1991 to 2008.
 #'
-#' Total monthly scripts for pharmaceutical products falling under ATC code
-#' A10, as recorded by the Australian Health Insurance Commission. July 1991 -
-#' June 2008.
-#'
+#' Monthly government expenditure (millions of dollars) as part of the
+#' Pharmaceutical Benefit Scheme for products falling under ATC code A10
+#' as recorded by the Australian Health Insurance Commission.
+#' July 1991 - June 2008.
 #'
 #' @name a10
 #' @docType data
@@ -45,17 +45,13 @@ NULL
 #' @name ausair
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source World Bank. \url{https://data.is/x5KiEO}
+#' @source World Bank.
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(ausair)
 #'
 NULL
-
-
-
-
 
 #' Quarterly Australian Beer production
 #'
@@ -75,10 +71,6 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' International visitors to Australia
 #'
 #' Total international visitors to Australia (in millions). 1980-2015.
@@ -94,10 +86,6 @@ NULL
 #' autoplot(austa)
 #'
 NULL
-
-
-
-
 
 #' International Tourists to Australia: Total visitor nights.
 #'
@@ -116,10 +104,6 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Monthly expenditure on eating out in Australia
 #'
 #' The total monthly expenditure on cafes, restaurants and takeaway food
@@ -137,14 +121,10 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Call volume for a large North American bank
 #'
-#' Five-minute call volume handled on weekdays between 7:00am and 9:05pm, from
-#' 3 March 2003 to 23 May 2003.
+#' Five-minute call volume handled on weekdays between 7:00am and 9:05pm,
+#' beginning 3 March 2003 for 164 days.
 #'
 #'
 #' @name calls
@@ -158,10 +138,6 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Retail debit card usage in Iceland.
 #'
 #' Monthly retail debit card usage in Iceland (million ISK). January 2000 -
@@ -171,17 +147,13 @@ NULL
 #' @name debitcards
 #' @docType data
 #' @format Monthly time series of class \code{ts}.
-#' @source Statistics Iceland. \url{https://data.is/HFzL69}
+#' @source Statistics Iceland.
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(debitcards)
 #'
 NULL
-
-
-
-
 
 #' Total monthly departures from Australia
 #'
@@ -211,23 +183,23 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Half-hourly and daily electricity demand for Victoria, Australia, in 2014
 #'
 #' \code{elecdemand} is a half-hourly time series matrix with three columns:
 #'   \tabular{ll}{
-#'     Demand:      \tab Total electricity demand in GW for Victoria, Australia, every half-hour during 2014.\cr
+#'     Demand:      \tab Total electricity demand in GW for Victoria, Australia,
+#'                       every half-hour during 2014.\cr
 #'     WorkDay:     \tab taking value 1 on work days, and 0 otherwise.\cr
-#'     Temperature: \tab half-hourly temperatures for Melbourne (BOM site 086071).
+#'     Temperature: \tab half-hourly temperatures for Melbourne
+#'                       (BOM site 086071).
 #' }
 #' \code{elecdaily} is a daily time series matrix with three columns:
 #'   \tabular{ll}{
-#'     Demand:      \tab Total electricity demand in GW for Victoria, Australia, every day during 2014.\cr
+#'     Demand:      \tab Total electricity demand in GW for Victoria, Australia,
+#'                       every day during 2014.\cr
 #'     WorkDay:     \tab taking value 1 on work days, and 0 otherwise.\cr
-#'     Temperature: \tab maximum daily temperatures for Melbourne (BOM site 086071).
+#'     Temperature: \tab maximum daily temperatures for Melbourne
+#'                       (BOM site 086071).
 #' }
 #'
 #' This data is for operational demand, which is the demand met by local
@@ -258,9 +230,6 @@ NULL
 #'
 NULL
 
-
-
-
 #' Electrical equipment manufactured in the Euro area.
 #'
 #' Monthly manufacture of electrical equipment: computer, electronic and
@@ -271,17 +240,13 @@ NULL
 #' @name elecequip
 #' @docType data
 #' @format Time series object of class \code{ts}.
-#' @source Eurostat. \url{https://data.is/y6dO8i}
+#' @source Eurostat.
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(elecequip)
 #'
 NULL
-
-
-
-
 
 #' Electricity sales to residential customers in South Australia.
 #'
@@ -300,10 +265,6 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Quarterly retail trade: Euro area.
 #'
 #' Quarterly retail trade index in the Euro area (17 countries), 1996-2011,
@@ -314,39 +275,13 @@ NULL
 #' @name euretail
 #' @docType data
 #' @format Quarterly time series of class \code{ts}.
-#' @source Eurostat. \url{https://data.is/IdKyZr}
+#' @source Eurostat.
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(euretail)
 #'
 NULL
-
-
-
-
-
-#' Data for "Forecasting: principles and practice" (2nd ed, 2017)
-#'
-#' All data sets required for the examples and exercises in the book
-#' "Forecasting: principles and practice" (2nd ed, 2017) by Rob J Hyndman and George
-#' Athanasopoulos. This package also loads other packages required for the
-#' book.
-#'
-#' @name fpp-package
-#' @aliases fpp-package fpp fpp2
-#' @docType package
-#' @author Rob J Hyndman
-#' @references Hyndman, R.J., and Athanasopoulos, G. (2017).
-#' \emph{Forecasting: principles and practice}, OTexts: Melbourne, Australia.
-#' \url{https://OTexts.org/fpp2/}
-#' @seealso \code{\link[forecast]{forecast}} package
-#' @keywords package
-NULL
-
-
-
-
 
 #' US finished motor gasoline product supplied.
 #'
@@ -365,15 +300,11 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Daily closing stock prices of Google Inc
 #'
 #' Closing stock prices of GOOG from the NASDAQ exchange, for 1000 consecutive
-#' trading days between 25 February 2013 and 13 February 2017. Adjusted for splits.
-#' \code{goog200} contains the first 200 observations from \code{goog}.
+#' trading days between 25 February 2013 and 13 February 2017. Adjusted for
+#' splits. \code{goog200} contains the first 200 observations from \code{goog}.
 #'
 #'
 #' @name goog
@@ -387,7 +318,6 @@ NULL
 #'
 NULL
 
-
 #' @name goog200
 #' @rdname goog
 NULL
@@ -400,7 +330,7 @@ NULL
 #' @name guinearice
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source World Bank. \url{https://data.is/whKD8H}
+#' @source World Bank.
 #' @keywords datasets
 #' @examples
 #'
@@ -408,15 +338,12 @@ NULL
 #'
 NULL
 
-
-
-
-
-#' Monthly corticosteroid drug sales in Australia from July 1991 to June 2008.
+#' Monthly corticosteroid drug subsidy in Australia from 1991 to 2008.
 #'
-#' Total monthly scripts for pharmaceutical products falling under ATC code
-#' H02, as recorded by the Australian Health Insurance Commission. Measured in
-#' millions of scripts.
+#' Monthly government expenditure (millions of dollars) as part of the
+#' Pharmaceutical Benefit Scheme for products falling under ATC code H02
+#' as recorded by the Australian Health Insurance Commission.
+#' July 1991 - June 2008.
 #'
 #'
 #' @name h02
@@ -431,14 +358,10 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Daily pageviews for the Hyndsight blog. 30 April 2014 to 29 April 2015.
 #'
 #' Hyndsight is Rob Hyndman's personal blog at
-#' \url{https://robjhyndman.com/hyndsight}. This series contains the daily
+#' \url{https://robjhyndman.com/hyndsight/}. This series contains the daily
 #' pageviews for one year, beginning 30 April 2014. The frequency is set to 7,
 #' to allow the weekly pattern to be modelled.
 #'
@@ -453,10 +376,6 @@ NULL
 #' autoplot(hyndsight, xlab="Weeks")
 #'
 NULL
-
-
-
-
 
 #' Insurance quotations and advertising expenditure.
 #'
@@ -475,10 +394,6 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Livestock (sheep) in Asia, 1961-2007.
 #'
 #' Annual sheep livestock numbers in Asia (in million head).
@@ -487,17 +402,13 @@ NULL
 #' @name livestock
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source United Nations. \url{https://data.is/GFxwQi}
+#' @source United Nations.
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(livestock)
 #'
 NULL
-
-
-
-
 
 #' Boston marathon winning times since 1897
 #'
@@ -509,17 +420,13 @@ NULL
 #' @docType data
 #' @format Annual time series of class \code{ts}.
 #' @source Boston Athletic Association.
-#' \url{http://www.baa.org/races/boston-marathon/boston-marathon-history/champions/mens-open-division.aspx}
+#' \url{https://www.baa.org/races/boston-marathon/results/champions}
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(marathon)
 #'
 NULL
-
-
-
-
 
 #' Maximum annual temperatures at Moorabbin Airport, Melbourne
 #'
@@ -537,10 +444,6 @@ NULL
 #' autoplot(maxtemp)
 #'
 NULL
-
-
-
-
 
 #' Total weekly air passenger numbers on Ansett airline flights between
 #' Melbourne and Sydney, 1987--1992.
@@ -562,10 +465,6 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Annual oil production in Saudi Arabia
 #'
 #' Annual oil production (millions of tonnes), Saudi Arabia, 1965-2013.
@@ -574,17 +473,13 @@ NULL
 #' @name oil
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source BP. \url{https://data.is/GEOHU3}
+#' @source BP.
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(oil)
 #'
 NULL
-
-
-
-
 
 #' Quarterly Australian Portland Cement production
 #'
@@ -603,10 +498,6 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Quarterly Australian Electricity production
 #'
 #' Total quarterly electricity production in Australia (in billion kWh) from
@@ -624,10 +515,6 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Quarterly Australian Gas Production
 #'
 #' Total quarterly gas production in Australia (in petajoules) from 1956:Q1 to
@@ -644,10 +531,6 @@ NULL
 #' autoplot(qgas)
 #'
 NULL
-
-
-
-
 
 #' Annual average sunspot area (1875-2015)
 #'
@@ -671,10 +554,6 @@ NULL
 #'
 NULL
 
-
-
-
-
 #' Growth rates of personal consumption and personal income in the USA.
 #'
 #' Percentage changes in quarterly personal consumption expenditure, personal
@@ -686,18 +565,13 @@ NULL
 #' @aliases usconsumption uschange
 #' @docType data
 #' @format Time series object of class \code{ts}.
-#' @source Federal Reserve Bank of St Louis. \url{https://data.is/AnVtzB}.
-#' \url{https://data.is/wQPcjU}.
+#' @source Federal Reserve Bank of St Louis.
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(uschange, facet=TRUE)
 #'
 NULL
-
-
-
-
 
 #' Electricity monthly total net generation. January 1973 - June 2013.
 #'
@@ -707,7 +581,7 @@ NULL
 #' @name usmelec
 #' @docType data
 #' @format Time series object of class \code{ts}.
-#' @source US Energy Information Administration. \url{https://data.is/zgRWCO}.
+#' @source US Energy Information Administration.
 #' @keywords datasets
 #' @examples
 #'
@@ -719,8 +593,8 @@ NULL
 #'
 #' Total quarterly visitor nights (in millions) from 1998-2016 for twenty
 #' regions of Australia within six states. The states are:
-#' New South Wales, Queensland, South Australia, Victoria, Western Australia, and
-#' Other.
+#' New South Wales, Queensland, South Australia, Victoria, Western Australia,
+#' and Other.
 #'
 #' @name visnights
 #' @docType data
@@ -733,7 +607,6 @@ NULL
 #'
 NULL
 
-
 #' Annual female murder rate (per 100,000 standard population) in the USA.
 #' 1950-2004.
 #'
@@ -743,16 +616,13 @@ NULL
 #' @name wmurders
 #' @docType data
 #' @format Annual time series of class \code{ts}.
-#' @source Gapminder Foundation. \url{https://data.is/XKa24F}
+#' @source Gapminder Foundation.
 #' @keywords datasets
 #' @examples
 #'
 #' autoplot(wmurders)
 #'
 NULL
-
-
-
 
 #' Winning times in Olympic men's 400m track final. 1896-2016.
 #'
@@ -770,15 +640,14 @@ NULL
 #'
 NULL
 
-
-
 #' prison
 #'
 #' @name prison
 #' @docType data
-#' @format Quarterly time series of prisoner numbers in Australia from 2005 to 2016, split
-#' by sex, state and legal status. \code{prisonLF} is a long-form version of the data of
-#' class \code{data.frame}, while \code{prison} is in wide form and of class \code{mts}.
+#' @format Quarterly time series of prisoner numbers in Australia from 2005 to
+#' 2016, split by sex, state and legal status. \code{prisonLF} is a long-form
+#' version of the data of class \code{data.frame}, while \code{prison} is in
+#' wide form and of class \code{mts}.
 #' @keywords datasets
 #' @examples
 #'
