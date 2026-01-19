@@ -134,7 +134,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #'
-#' autoplot(calls, xlab="Weeks")
+#' autoplot(calls, xlab = "Weeks")
 #'
 NULL
 
@@ -179,7 +179,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #'
-#' autoplot(departures, facets=TRUE)
+#' autoplot(departures, facets = TRUE)
 #'
 NULL
 
@@ -296,7 +296,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #'
-#' autoplot(gasoline, xlab="Year")
+#' autoplot(gasoline, xlab = "Year")
 #'
 NULL
 
@@ -310,7 +310,7 @@ NULL
 #' @name goog
 #' @docType data
 #' @format Daily time series of class \code{ts}.
-#' @source \url{https://finance.yahoo.com/quote/GOOG/history}
+#' @source \url{https://finance.yahoo.com/quote/GOOG/history/}
 #' @keywords datasets
 #' @examples
 #'
@@ -373,7 +373,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #'
-#' autoplot(hyndsight, xlab="Weeks")
+#' autoplot(hyndsight, xlab = "Weeks")
 #'
 NULL
 
@@ -420,7 +420,7 @@ NULL
 #' @docType data
 #' @format Annual time series of class \code{ts}.
 #' @source Boston Athletic Association.
-#' \url{https://www.baa.org/races/boston-marathon/results/champions}
+#' \url{https://www.baa.org/races/boston-marathon/results/champions/}
 #' @keywords datasets
 #' @examples
 #'
@@ -461,7 +461,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #'
-#' autoplot(melsyd, facets=TRUE)
+#' autoplot(melsyd, facets = TRUE)
 #'
 NULL
 
@@ -569,7 +569,7 @@ NULL
 #' @keywords datasets
 #' @examples
 #'
-#' autoplot(uschange, facet=TRUE)
+#' autoplot(uschange, facet = TRUE)
 #'
 NULL
 

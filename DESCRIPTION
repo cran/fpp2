@@ -1,5 +1,5 @@
 Package: fpp2
-Version: 2.5
+Version: 2.5.1
 Title: Data for "Forecasting: Principles and Practice" (2nd Edition)
 Description: All data sets required for the examples and exercises
   in the book "Forecasting: principles and practice" (2nd ed, 2018)
@@ -17,19 +17,18 @@ Authors@R:
            email="Rob.Hyndman@monash.edu"),
     person(given = "RStudio",
            role = c("cph")))
-URL: https://pkg.robjhyndman.com/fpp2-package/,
-        https://github.com/robjhyndman/fpp2-package,
-        https://otexts.com/fpp2/
-BugReports: https://github.com/robjhyndman/fpp2-package/issues
+URL: https://pkg.robjhyndman.com/fpp2/,
+        https://github.com/robjhyndman/fpp2, https://otexts.com/fpp2/
+BugReports: https://github.com/robjhyndman/fpp2/issues
 Encoding: UTF-8
 License: GPL-3
 LazyData: yes
 LazyLoad: yes
-RoxygenNote: 7.2.3
+RoxygenNote: 7.3.3
 NeedsCompilation: no
-Packaged: 2023-02-18 01:03:35 UTC; hyndman
+Packaged: 2026-01-18 23:38:44 UTC; hyndman
 Author: Rob Hyndman [aut, cre, cph],
   RStudio [cph]
 Maintainer: Rob Hyndman <Rob.Hyndman@monash.edu>
 Repository: CRAN
-Date/Publication: 2023-02-19 07:30:02 UTC
+Date/Publication: 2026-01-19 08:20:14 UTC

@@ -1,14 +1,14 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# fpp2
+# fpp2 <img src="man/figures/logo.png" align="right" width = 150 />
 
 <!-- badges: start -->
 
 [![CRAN
 status](https://www.r-pkg.org/badges/version/fpp2)](https://cran.r-project.org/package=fpp2)
 [![R build
-status](https://github.com/robjhyndman/fpp2-package/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp2-package/actions)
+status](https://github.com/robjhyndman/fpp2/workflows/R-CMD-check/badge.svg)](https://github.com/robjhyndman/fpp2/actions)
 [![Downloads](http://cranlogs.r-pkg.org/badges/fpp2)](https://cran.r-project.org/package=fpp2)
 <!-- badges: end -->
 
@@ -26,15 +26,15 @@ You can install the **stable** version from
 [CRAN](https://cran.r-project.org/package=fpp2).
 
 ``` r
-install.packages('fpp2', dependencies = TRUE)
+install.packages("fpp2", dependencies = TRUE)
 ```
 
 You can install the **development** version from
-[Github](https://github.com/robjhyndman/fpp2-package)
+[Github](https://github.com/robjhyndman/fpp2)
 
 ``` r
-# install.packages("remotes")
-remotes::install_github("robjhyndman/fpp2-package")
+# install.packages("pak")
+pak::pak("robjhyndman/fpp2")
 ```
 
 ## Usage
@@ -59,8 +59,8 @@ library(fpp2)
 #> Registered S3 method overwritten by 'quantmod':
 #>   method            from
 #>   as.zoo.data.frame zoo
-#> ── Attaching packages ────────────────────────────────────────────── fpp2 2.5 ──
-#> ✔ ggplot2   3.4.0     ✔ fma       2.5  
-#> ✔ forecast  8.20      ✔ expsmooth 2.4
+#> ── Attaching packages ─────────────────────────────────────── fpp2 2.5.0.9000 ──
+#> ✔ ggplot2   4.0.1          ✔ fma       2.5       
+#> ✔ forecast  9.0.0          ✔ expsmooth 2.3.0.9000
 #> 
 ```
